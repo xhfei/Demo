@@ -24,6 +24,7 @@ public class Main {
 		//④发送请求并得到响应  
 		ClientHttpResponse response = request.execute();  
 		System.out.println(response.getStatusCode()); 
+		System.out.println("123132"); 
 	}
 
 }
